@@ -1,0 +1,25 @@
+body {
+  background: linear-gradient(135deg, #e0f2f1 0%, #e8eaf6 100%);
+  min-height: 100vh;
+}
+
+.todo-card {
+  border: 0;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+.todo-text.done {
+  text-decoration: line-through;
+  color: #6c757d;
+}
+
+.todo-item .actions {
+  opacity: 0.4;
+  transition: opacity 0.15s;
+}
+
+.todo-item:hover .actions,
+.todo-item:focus-within .actions {
+  opacity: 1;
+}
