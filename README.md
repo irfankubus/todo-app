@@ -2,7 +2,7 @@
 
 React, Vite ve Bootstrap 5 ile geliştirilmiş basit bir TODO uygulamasıdır. Görev **ekleme, listeleme, güncelleme ve silme** işlemlerini yapar; veriler tarayıcının **LocalStorage** alanında saklanır, sayfa yenilense de kaybolmaz.
 
-🔗 **Canlı uygulama:** _Netlify linki buraya eklenecek_
+🔗 **Canlı uygulama:** [https://irfa-todo-app.netlify.app](https://irfa-todo-app.netlify.app)
 
 ![Uygulama ekran görüntüsü](screenshots/uygulama.png)
 
