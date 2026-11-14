@@ -23,18 +23,24 @@ React, Vite ve Bootstrap 5 ile geliştirilmiş basit bir TODO uygulamasıdır. G
 ## Klasör Yapısı
 
 ```
-src/
-├── components/   TodoForm, TodoList, TodoItem
-├── pages/        Home
-├── hooks/        useLocalStorage
-├── App.jsx
-├── main.jsx
-└── index.css
+todo-app/
+├── index.html
+├── package.json
+├── netlify.toml          (Netlify yayın ayarı)
+├── screenshots/          (uygulama ekran görüntüsü)
+├── public/
+└── src/
+    ├── components/       TodoForm, TodoList, TodoItem
+    ├── pages/            Home
+    ├── hooks/            useLocalStorage
+    ├── App.jsx
+    ├── main.jsx
+    └── index.css
 ```
 
 ## Kurulum ve Çalıştırma
 
-Gereksinim: [Node.js](https://nodejs.org) 18 veya üzeri.
+Gereksinim: [Node.js](https://nodejs.org) **20.19 veya üzeri** (22.12+ önerilir). Vite 8 daha eski sürümlerde çalışmaz.
 
 ```bash
 git clone https://github.com/irfankubus/todo-app.git
